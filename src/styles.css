@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 443px;
+    height: 540px;
+}
+.input-wraper{
+    display: flex;
+    flex-direction: column;
+    height: 63px;
+    width: 218px;
+    background: #DCDCDC;
+    border-radius: 3px;
+    border-bottom: 3px solid #5E00E4;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+input{
+    margin-left: 14px;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+    color: #817f85;
+    background: #DCDCDC;
+}
+input:focus {
+    outline: none;
+}
+label{
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-top: 10px;
+    color: #5E00E4;
+}
+
